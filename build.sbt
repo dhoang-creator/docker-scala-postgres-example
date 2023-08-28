@@ -4,7 +4,7 @@ ThisBuild / scalaVersion := "2.13.1"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "CatsTemplate"
+    name := "docker-scala-postgres-example"
   )
 
 lazy val http4sVersion = "1.0.0-M40"
